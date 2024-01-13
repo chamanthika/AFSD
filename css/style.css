@@ -1,0 +1,50 @@
+.title-2{
+    background-color: rgb(185, 122, 39);
+
+}
+
+/* type selector  */
+h2{
+    background-color: black;
+    color: bisque;
+    border:2px solid black;
+}
+
+/* class selector */
+.janu{
+    background-color: antiquewhite;
+    color: brown;
+    padding:5px;
+}
+
+#delwo{
+    background-color: crimson;
+    color:black;
+    padding:10px;
+}
+
+/* child selector */
+body > div > p{
+    background-color: blueviolet;
+}
+
+/* universal selector */
+*{
+    border: 2px ;
+    
+    
+}
+
+/* box model */
+
+.box-container{
+    background-color: aquamarine;
+    width:600px;
+
+}
+.box-model{
+    background-color: hotpink;
+    margin:40px;
+    border:30px solid black;
+    padding:40px;
+}
